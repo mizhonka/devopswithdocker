@@ -1,0 +1,5 @@
+C:\Users\mizhonka>docker ps -a
+CONTAINER ID   IMAGE     COMMAND                  CREATED         STATUS                     PORTS     NAMES
+bbb2399446fd   nginx     "/docker-entrypoint.…"   2 minutes ago   Up 2 minutes               80/tcp    mystifying_moser
+07a8cf1c307f   nginx     "/docker-entrypoint.…"   2 minutes ago   Exited (0) 2 minutes ago             modest_meitner
+26cfa2cb0725   nginx     "/docker-entrypoint.…"   2 minutes ago   Exited (0) 2 minutes ago             strange_dewdney

@@ -1,0 +1,7 @@
+# Terminal 1:
+docker run -it --name webservice ubuntu sh -c "while true; do echo 'Input website:'; read website; echo 'Searching..'; sleep 1; curl http://$website; done"
+
+# Terminal 2:
+docker exec -it webservice bash
+apt-get update
+apt-get install curl
