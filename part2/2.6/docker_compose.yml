@@ -2,25 +2,24 @@ version: '3.8'
 
 services:
   frontend:
-    image: example-frontend
+    image: frontend
     ports:
       - 5000:5000
     command: ["serve", "-s", "-l", "5000", "build"]
   backend:
-    image: example-backend
+    image: backend
     ports:
       - 8080:8080
     command: ["./server"]
     environment:
       - REDIS_HOST=redis
-      - POSTGRES_HOST=database
+      - POSTGRES_HOST=db
       - POSTGRES_PASSWORD=secret
     depends_on:
-      - database
+      - db
   redis:
     image: redis
-    command: redis-server --save 60 1 --loglevel warning
-  database:
+  db:
     image: postgres
     environment:
       - POSTGRES_PASSWORD=secret
