@@ -1,0 +1,7 @@
+version: '3.8'
+
+services:
+  webservice:
+    image: devopsdockeruh/simple-web-service:ubuntu
+    volumes:
+      - ./mydir/text.log:/usr/src/app/text.log
