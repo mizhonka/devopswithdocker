@@ -1,0 +1,17 @@
+# from image history
+IMAGE          CREATED          CREATED BY                                      SIZE      COMMENT
+9335366b4a1b   36 seconds ago   CMD ["serve" "-s" "-l" "5000" "build"]          0B        buildkit.dockerfile.v0
+<missing>      36 seconds ago   USER appuser                                    0B        buildkit.dockerfile.v0
+<missing>      36 seconds ago   RUN /bin/sh -c apt-get update && apt-get ins…   497MB     buildkit.dockerfile.v0
+<missing>      2 weeks ago      COPY . . # buildkit                             707kB     buildkit.dockerfile.v0
+<missing>      2 weeks ago      EXPOSE map[5000/tcp:{}]                         0B        buildkit.dockerfile.v0
+<missing>      3 weeks ago      WORKDIR /usr/src/app                            0B        buildkit.dockerfile.v0
+<missing>      5 weeks ago      /bin/sh -c #(nop)  CMD ["/bin/bash"]            0B
+<missing>      5 weeks ago      /bin/sh -c #(nop) ADD file:21c2e8d95909bec6f…   77.9MB
+<missing>      5 weeks ago      /bin/sh -c #(nop)  LABEL org.opencontainers.…   0B
+<missing>      5 weeks ago      /bin/sh -c #(nop)  LABEL org.opencontainers.…   0B
+<missing>      5 weeks ago      /bin/sh -c #(nop)  ARG LAUNCHPAD_BUILD_ARCH     0B
+<missing>      5 weeks ago      /bin/sh -c #(nop)  ARG RELEASE                  0B
+
+# from docker images
+frontend                                     latest            9335366b4a1b   About a minute ago   576MB
