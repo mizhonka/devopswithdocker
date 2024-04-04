@@ -1,0 +1,5 @@
+Before (FROM ubuntu:22.04):
+frontend                                     latest            9335366b4a1b   35 minutes ago   576MB
+
+After (FROM node:16-alpine):
+frontend                                     latest            717394201ba0   37 seconds ago   480MB
