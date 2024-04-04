@@ -1,0 +1,5 @@
+Before (FROM golang:1.16):
+backend                                      latest            bf1ff7c7b9ad   2 minutes ago    1.07GB
+
+After (FROM golang:1.16-alpine):
+backend                                      latest            3f457bd97a22   31 seconds ago   447MB
