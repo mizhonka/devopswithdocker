@@ -1,2 +1,5 @@
 # Before
 spring-project                               latest            c501af529030   42 seconds ago   436MB
+
+# After
+spring-project                               latest            3db04d239255   24 seconds ago   292MB
