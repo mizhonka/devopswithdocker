@@ -3,7 +3,7 @@ from subprocess import run
 from git import Repo
 
 base_url='https://github.com/'
-local_address='/Users/mizhonka/python-clone/local_dir'
+local_address='/local_dir'
 
 def clone(r):
     x = r.split('/')
