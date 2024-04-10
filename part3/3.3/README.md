@@ -12,3 +12,4 @@ pip install GitPython
 ```
 python builder.py <GitHub username>/<GitHub repository name> <Docker username>/<Image name>
 ```
+The repository will clone itself to Home/local_dir
